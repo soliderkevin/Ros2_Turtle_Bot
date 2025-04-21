@@ -1,5 +1,0 @@
-  File "/mnt/c/ros2_ws/3-26-SRC/install/control/lib/python3.10/site-packages/control/ex1.py", line 54
-    cmd_vel.angular.z = ???
-                        ^
-SyntaxError: invalid syntax
-
