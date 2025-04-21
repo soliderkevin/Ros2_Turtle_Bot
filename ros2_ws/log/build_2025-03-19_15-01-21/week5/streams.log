@@ -1,0 +1,24 @@
+[8.238s] Invoking command in '/mnt/c/ros2_ws/src/week5': PYTHONPATH=/mnt/c/ros2_ws/build/week5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week5 build --build-base /mnt/c/ros2_ws/build/week5/build install --record /mnt/c/ros2_ws/build/week5/install.log --single-version-externally-managed install_data
+[10.199s] running egg_info
+[10.208s] writing ../../build/week5/week5.egg-info/PKG-INFO
+[10.218s] writing dependency_links to ../../build/week5/week5.egg-info/dependency_links.txt
+[10.229s] writing entry points to ../../build/week5/week5.egg-info/entry_points.txt
+[10.239s] writing requirements to ../../build/week5/week5.egg-info/requires.txt
+[10.245s] writing top-level names to ../../build/week5/week5.egg-info/top_level.txt
+[10.306s] reading manifest file '../../build/week5/week5.egg-info/SOURCES.txt'
+[10.407s] writing manifest file '../../build/week5/week5.egg-info/SOURCES.txt'
+[10.413s] running build
+[10.415s] running build_py
+[10.437s] copying week5/testing.py -> /mnt/c/ros2_ws/build/week5/build/lib/week5
+[10.495s] running install
+[10.497s] running install_lib
+[10.555s] copying /mnt/c/ros2_ws/build/week5/build/lib/week5/testing.py -> /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5
+[10.650s] byte-compiling /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5/testing.py to testing.cpython-310.pyc
+[10.725s] running install_data
+[10.761s] running install_egg_info
+[10.785s] removing '/mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5-0.0.0-py3.10.egg-info' (and everything under it)
+[10.875s] Copying ../../build/week5/week5.egg-info to /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5-0.0.0-py3.10.egg-info
+[11.284s] running install_scripts
+[11.510s] Installing test_node script to /mnt/c/ros2_ws/install/week5/lib/week5
+[11.542s] writing list of installed files to '/mnt/c/ros2_ws/build/week5/install.log'
+[12.368s] Invoked command in '/mnt/c/ros2_ws/src/week5' returned '0': PYTHONPATH=/mnt/c/ros2_ws/build/week5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week5 build --build-base /mnt/c/ros2_ws/build/week5/build install --record /mnt/c/ros2_ws/build/week5/install.log --single-version-externally-managed install_data

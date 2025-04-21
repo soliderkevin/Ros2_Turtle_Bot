@@ -1,0 +1,22 @@
+[3.519s] Invoking command in '/mnt/c/ros2_ws/3-26-src/control': PYTHONPATH=/mnt/c/ros2_ws/3-26-src/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/3-26-src/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/control build --build-base /mnt/c/ros2_ws/3-26-src/build/control/build install --record /mnt/c/ros2_ws/3-26-src/build/control/install.log --single-version-externally-managed install_data
+[4.772s] running egg_info
+[4.784s] writing ../build/control/control.egg-info/PKG-INFO
+[4.802s] writing dependency_links to ../build/control/control.egg-info/dependency_links.txt
+[4.818s] writing entry points to ../build/control/control.egg-info/entry_points.txt
+[4.828s] writing requirements to ../build/control/control.egg-info/requires.txt
+[4.837s] writing top-level names to ../build/control/control.egg-info/top_level.txt
+[4.907s] reading manifest file '../build/control/control.egg-info/SOURCES.txt'
+[5.007s] writing manifest file '../build/control/control.egg-info/SOURCES.txt'
+[5.013s] running build
+[5.015s] running build_py
+[5.207s] running install
+[5.209s] running install_lib
+[5.566s] running install_data
+[5.600s] running install_egg_info
+[5.616s] removing '/mnt/c/ros2_ws/3-26-src/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[5.701s] Copying ../build/control/control.egg-info to /mnt/c/ros2_ws/3-26-src/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[6.042s] running install_scripts
+[6.158s] Installing midterm3 script to /mnt/c/ros2_ws/3-26-src/install/control/lib/control
+[6.178s] Installing startpublisher script to /mnt/c/ros2_ws/3-26-src/install/control/lib/control
+[6.196s] writing list of installed files to '/mnt/c/ros2_ws/3-26-src/build/control/install.log'
+[6.246s] Invoked command in '/mnt/c/ros2_ws/3-26-src/control' returned '0': PYTHONPATH=/mnt/c/ros2_ws/3-26-src/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/3-26-src/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/control build --build-base /mnt/c/ros2_ws/3-26-src/build/control/build install --record /mnt/c/ros2_ws/3-26-src/build/control/install.log --single-version-externally-managed install_data

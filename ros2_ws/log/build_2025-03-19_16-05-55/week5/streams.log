@@ -1,0 +1,21 @@
+[3.946s] Invoking command in '/mnt/c/ros2_ws/src/week5': PYTHONPATH=/mnt/c/ros2_ws/build/week5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week5 build --build-base /mnt/c/ros2_ws/build/week5/build install --record /mnt/c/ros2_ws/build/week5/install.log --single-version-externally-managed install_data
+[5.316s] running egg_info
+[5.327s] writing ../../build/week5/week5.egg-info/PKG-INFO
+[5.345s] writing dependency_links to ../../build/week5/week5.egg-info/dependency_links.txt
+[5.359s] writing entry points to ../../build/week5/week5.egg-info/entry_points.txt
+[5.372s] writing requirements to ../../build/week5/week5.egg-info/requires.txt
+[5.377s] writing top-level names to ../../build/week5/week5.egg-info/top_level.txt
+[5.461s] reading manifest file '../../build/week5/week5.egg-info/SOURCES.txt'
+[5.584s] writing manifest file '../../build/week5/week5.egg-info/SOURCES.txt'
+[5.591s] running build
+[5.593s] running build_py
+[5.647s] running install
+[5.649s] running install_lib
+[5.806s] running install_data
+[5.851s] running install_egg_info
+[5.872s] removing '/mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5-0.0.0-py3.10.egg-info' (and everything under it)
+[5.973s] Copying ../../build/week5/week5.egg-info to /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5-0.0.0-py3.10.egg-info
+[6.448s] running install_scripts
+[6.595s] Installing test_node script to /mnt/c/ros2_ws/install/week5/lib/week5
+[6.619s] writing list of installed files to '/mnt/c/ros2_ws/build/week5/install.log'
+[6.733s] Invoked command in '/mnt/c/ros2_ws/src/week5' returned '0': PYTHONPATH=/mnt/c/ros2_ws/build/week5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week5 build --build-base /mnt/c/ros2_ws/build/week5/build install --record /mnt/c/ros2_ws/build/week5/install.log --single-version-externally-managed install_data

@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/week5/week5.egg-info/PKG-INFO
+writing dependency_links to ../../build/week5/week5.egg-info/dependency_links.txt
+writing entry points to ../../build/week5/week5.egg-info/entry_points.txt
+writing requirements to ../../build/week5/week5.egg-info/requires.txt
+writing top-level names to ../../build/week5/week5.egg-info/top_level.txt
+reading manifest file '../../build/week5/week5.egg-info/SOURCES.txt'
+writing manifest file '../../build/week5/week5.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/week5/week5.egg-info to /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_node script to /mnt/c/ros2_ws/install/week5/lib/week5
+writing list of installed files to '/mnt/c/ros2_ws/build/week5/install.log'

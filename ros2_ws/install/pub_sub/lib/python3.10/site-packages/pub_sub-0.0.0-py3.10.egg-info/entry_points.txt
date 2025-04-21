@@ -1,0 +1,4 @@
+[console_scripts]
+pub = pub_sub.pub:main
+sub = pub_sub.sub:main
+

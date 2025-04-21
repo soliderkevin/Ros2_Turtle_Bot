@@ -1,0 +1,74 @@
+[0.413s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.414s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0b0f3c8550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0b0f3a3f10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0b0f3a3f10>>, mixin_verb=('build',))
+[1.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.346s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/ros2_ws/4-16'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(build - 複製) by extensions ['ignore', 'ignore_ament_install']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(build - 複製) by extension 'ignore'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(build - 複製) ignored
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extensions ['ignore', 'ignore_ament_install']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extension 'ignore'
+[1.404s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extension 'ignore_ament_install'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extensions ['colcon_pkg']
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extension 'colcon_pkg'
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extensions ['colcon_meta']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extension 'colcon_meta'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extensions ['ros']
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extension 'ros'
+[1.452s] DEBUG:colcon.colcon_core.package_identification:Package 'control' with type 'ros.ament_python' and name 'control'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(control - 複製) by extensions ['ignore', 'ignore_ament_install']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(control - 複製) by extension 'ignore'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(control - 複製) by extension 'ignore_ament_install'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(control - 複製) by extensions ['colcon_pkg']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(control - 複製) by extension 'colcon_pkg'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(control - 複製) by extensions ['colcon_meta']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(control - 複製) by extension 'colcon_meta'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(control - 複製) by extensions ['ros']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(control - 複製) by extension 'ros'
+[1.483s] DEBUG:colcon.colcon_core.package_identification:Package 'control - 複製' with type 'ros.ament_python' and name 'control'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(install - 複製) by extensions ['ignore', 'ignore_ament_install']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(install - 複製) by extension 'ignore'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(install - 複製) ignored
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.516s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(log - 複製) by extensions ['ignore', 'ignore_ament_install']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(log - 複製) by extension 'ignore'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(log - 複製) ignored
+[1.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.796s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[1.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.846s] ERROR:colcon:colcon build: Duplicate package names not supported:
+- control:
+  - control
+  - control - 複製

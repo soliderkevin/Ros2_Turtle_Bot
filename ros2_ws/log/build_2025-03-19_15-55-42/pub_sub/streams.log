@@ -1,0 +1,22 @@
+[9.683s] Invoking command in '/mnt/c/ros2_ws/src/pub_sub': PYTHONPATH=/mnt/c/ros2_ws/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /mnt/c/ros2_ws/build/pub_sub/build install --record /mnt/c/ros2_ws/build/pub_sub/install.log --single-version-externally-managed install_data
+[11.927s] running egg_info
+[11.939s] writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[11.952s] writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[11.964s] writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[11.974s] writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+[11.982s] writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[12.048s] reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[12.159s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[12.170s] running build
+[12.172s] running build_py
+[12.247s] running install
+[12.250s] running install_lib
+[12.463s] running install_data
+[12.509s] running install_egg_info
+[12.534s] removing '/mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[12.632s] Copying ../../build/pub_sub/pub_sub.egg-info to /mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+[13.094s] running install_scripts
+[13.294s] Installing pub script to /mnt/c/ros2_ws/install/pub_sub/lib/pub_sub
+[13.318s] Installing sub script to /mnt/c/ros2_ws/install/pub_sub/lib/pub_sub
+[13.342s] writing list of installed files to '/mnt/c/ros2_ws/build/pub_sub/install.log'
+[13.453s] Invoked command in '/mnt/c/ros2_ws/src/pub_sub' returned '0': PYTHONPATH=/mnt/c/ros2_ws/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /mnt/c/ros2_ws/build/pub_sub/build install --record /mnt/c/ros2_ws/build/pub_sub/install.log --single-version-externally-managed install_data

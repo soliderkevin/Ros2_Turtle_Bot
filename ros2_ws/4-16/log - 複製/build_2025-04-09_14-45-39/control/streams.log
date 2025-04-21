@@ -1,0 +1,29 @@
+[6.066s] Invoking command in '/mnt/c/ros2_ws/3-26-SRC/control': PYTHONPATH=/mnt/c/ros2_ws/3-26-SRC/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/3-26-SRC/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/control build --build-base /mnt/c/ros2_ws/3-26-SRC/build/control/build install --record /mnt/c/ros2_ws/3-26-SRC/build/control/install.log --single-version-externally-managed install_data
+[8.650s] running egg_info
+[8.666s] writing ../build/control/control.egg-info/PKG-INFO
+[8.672s] writing dependency_links to ../build/control/control.egg-info/dependency_links.txt
+[8.685s] writing entry points to ../build/control/control.egg-info/entry_points.txt
+[8.694s] writing requirements to ../build/control/control.egg-info/requires.txt
+[8.700s] writing top-level names to ../build/control/control.egg-info/top_level.txt
+[8.753s] reading manifest file '../build/control/control.egg-info/SOURCES.txt'
+[8.856s] writing manifest file '../build/control/control.egg-info/SOURCES.txt'
+[8.863s] running build
+[8.865s] running build_py
+[8.904s] copying control/ex1.py -> /mnt/c/ros2_ws/3-26-SRC/build/control/build/lib/control
+[8.974s] running install
+[8.976s] running install_lib
+[9.033s] copying /mnt/c/ros2_ws/3-26-SRC/build/control/build/lib/control/ex1.py -> /mnt/c/ros2_ws/3-26-SRC/install/control/lib/python3.10/site-packages/control
+[9.124s] byte-compiling /mnt/c/ros2_ws/3-26-SRC/install/control/lib/python3.10/site-packages/control/ex1.py to ex1.cpython-310.pyc
+[9.148s]   File "/mnt/c/ros2_ws/3-26-SRC/install/control/lib/python3.10/site-packages/control/ex1.py", line 54
+[9.149s]     cmd_vel.angular.z = ???
+[9.151s]                         ^
+[9.152s] SyntaxError: invalid syntax
+[9.154s] 
+[9.168s] running install_data
+[9.207s] running install_egg_info
+[9.236s] removing '/mnt/c/ros2_ws/3-26-SRC/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[9.333s] Copying ../build/control/control.egg-info to /mnt/c/ros2_ws/3-26-SRC/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[9.790s] running install_scripts
+[10.010s] Installing ex1 script to /mnt/c/ros2_ws/3-26-SRC/install/control/lib/control
+[10.033s] writing list of installed files to '/mnt/c/ros2_ws/3-26-SRC/build/control/install.log'
+[10.104s] Invoked command in '/mnt/c/ros2_ws/3-26-SRC/control' returned '0': PYTHONPATH=/mnt/c/ros2_ws/3-26-SRC/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/3-26-SRC/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/control build --build-base /mnt/c/ros2_ws/3-26-SRC/build/control/build install --record /mnt/c/ros2_ws/3-26-SRC/build/control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+midterm4 = control.midterm4:main
+startpublisher = control.starterpublisher:main
+

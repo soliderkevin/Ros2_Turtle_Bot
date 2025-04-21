@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/week5/week5.egg-info
+writing ../../build/week5/week5.egg-info/PKG-INFO
+writing dependency_links to ../../build/week5/week5.egg-info/dependency_links.txt
+writing entry points to ../../build/week5/week5.egg-info/entry_points.txt
+writing requirements to ../../build/week5/week5.egg-info/requires.txt
+writing top-level names to ../../build/week5/week5.egg-info/top_level.txt
+writing manifest file '../../build/week5/week5.egg-info/SOURCES.txt'
+reading manifest file '../../build/week5/week5.egg-info/SOURCES.txt'
+writing manifest file '../../build/week5/week5.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/ros2_ws/build/week5/build
+creating /mnt/c/ros2_ws/build/week5/build/lib
+creating /mnt/c/ros2_ws/build/week5/build/lib/week5
+copying week5/testing.py -> /mnt/c/ros2_ws/build/week5/build/lib/week5
+copying week5/__init__.py -> /mnt/c/ros2_ws/build/week5/build/lib/week5
+running install
+running install_lib
+creating /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5
+copying /mnt/c/ros2_ws/build/week5/build/lib/week5/testing.py -> /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5
+copying /mnt/c/ros2_ws/build/week5/build/lib/week5/__init__.py -> /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5
+byte-compiling /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5/testing.py to testing.cpython-310.pyc
+byte-compiling /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/c/ros2_ws/install/week5/share/ament_index
+creating /mnt/c/ros2_ws/install/week5/share/ament_index/resource_index
+creating /mnt/c/ros2_ws/install/week5/share/ament_index/resource_index/packages
+copying resource/week5 -> /mnt/c/ros2_ws/install/week5/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/ros2_ws/install/week5/share/week5
+running install_egg_info
+Copying ../../build/week5/week5.egg-info to /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_node script to /mnt/c/ros2_ws/install/week5/lib/week5
+writing list of installed files to '/mnt/c/ros2_ws/build/week5/install.log'

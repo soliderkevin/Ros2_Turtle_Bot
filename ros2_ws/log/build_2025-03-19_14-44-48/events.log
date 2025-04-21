@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.001085] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.001584] (pub_sub) JobQueued: {'identifier': 'pub_sub', 'dependencies': OrderedDict()}
+[0.002062] (week5) JobQueued: {'identifier': 'week5', 'dependencies': OrderedDict()}
+[0.002616] (control) JobStarted: {'identifier': 'control'}
+[0.095357] (-) TimerEvent: {}
+[0.114072] (pub_sub) JobStarted: {'identifier': 'pub_sub'}
+[0.197330] (-) TimerEvent: {}
+[0.198555] (week5) JobStarted: {'identifier': 'week5'}
+[0.297586] (-) TimerEvent: {}
+[0.398589] (-) TimerEvent: {}
+[0.499569] (-) TimerEvent: {}
+[0.600594] (-) TimerEvent: {}
+[0.701503] (-) TimerEvent: {}
+[0.802446] (-) TimerEvent: {}
+[0.903359] (-) TimerEvent: {}
+[1.004583] (-) TimerEvent: {}
+[1.105508] (-) TimerEvent: {}
+[1.206464] (-) TimerEvent: {}
+[1.307644] (-) TimerEvent: {}
+[1.408826] (-) TimerEvent: {}
+[1.509672] (-) TimerEvent: {}
+[1.610551] (-) TimerEvent: {}
+[1.711314] (-) TimerEvent: {}
+[1.812094] (-) TimerEvent: {}
+[1.912914] (-) TimerEvent: {}
+[2.014119] (-) TimerEvent: {}
+[2.114852] (-) TimerEvent: {}
+[2.215726] (-) TimerEvent: {}
+[2.316576] (-) TimerEvent: {}
+[2.417633] (-) TimerEvent: {}
+[2.518907] (-) TimerEvent: {}
+[2.619815] (-) TimerEvent: {}
+[2.721078] (-) TimerEvent: {}
+[2.821986] (-) TimerEvent: {}
+[2.923076] (-) TimerEvent: {}
+[3.023897] (-) TimerEvent: {}
+[3.124753] (-) TimerEvent: {}
+[3.225603] (-) TimerEvent: {}
+[3.326526] (-) TimerEvent: {}
+[3.427380] (-) TimerEvent: {}
+[3.528342] (-) TimerEvent: {}
+[3.629432] (-) TimerEvent: {}
+[3.730391] (-) TimerEvent: {}
+[3.820553] (control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/control', 'build', '--build-base', '/mnt/c/ros2_ws/build/control/build', 'install', '--record', '/mnt/c/ros2_ws/build/control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/ros2_ws/src/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'iclab', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/iclab', 'OLDPWD': '/mnt/c/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'iclab', 'NAME': 'frankyeh1966', 'WSL_INTEROP': '/run/WSL/320_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/frank/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/frank/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/frank/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/ros2_ws/build/control', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/ros2_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[3.842682] (-) TimerEvent: {}
+[3.848085] (pub_sub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pub_sub', 'build', '--build-base', '/mnt/c/ros2_ws/build/pub_sub/build', 'install', '--record', '/mnt/c/ros2_ws/build/pub_sub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/ros2_ws/src/pub_sub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'iclab', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/iclab', 'OLDPWD': '/mnt/c/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'iclab', 'NAME': 'frankyeh1966', 'WSL_INTEROP': '/run/WSL/320_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/frank/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/frank/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/frank/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/ros2_ws/build/pub_sub', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/ros2_ws/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[3.870676] (week5) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/week5', 'build', '--build-base', '/mnt/c/ros2_ws/build/week5/build', 'install', '--record', '/mnt/c/ros2_ws/build/week5/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/ros2_ws/src/week5', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'iclab', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/iclab', 'OLDPWD': '/mnt/c/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'iclab', 'NAME': 'frankyeh1966', 'WSL_INTEROP': '/run/WSL/320_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/frank/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/frank/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/frank/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/ros2_ws/build/week5', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/ros2_ws/build/week5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[3.942903] (-) TimerEvent: {}
+[4.043713] (-) TimerEvent: {}
+[4.144674] (-) TimerEvent: {}
+[4.245465] (-) TimerEvent: {}
+[4.346594] (-) TimerEvent: {}
+[4.447276] (-) TimerEvent: {}
+[4.547982] (-) TimerEvent: {}
+[4.648798] (-) TimerEvent: {}
+[4.749658] (-) TimerEvent: {}
+[4.850643] (-) TimerEvent: {}
+[4.951724] (-) TimerEvent: {}
+[5.000717] (week5) StdoutLine: {'line': b'running egg_info\n'}
+[5.006927] (week5) StdoutLine: {'line': b'creating ../../build/week5/week5.egg-info\n'}
+[5.012177] (week5) StdoutLine: {'line': b'writing ../../build/week5/week5.egg-info/PKG-INFO\n'}
+[5.015392] (control) StdoutLine: {'line': b'running egg_info\n'}
+[5.023463] (control) StdoutLine: {'line': b'writing ../../build/control/control.egg-info/PKG-INFO\n'}
+[5.028070] (pub_sub) StdoutLine: {'line': b'running egg_info\n'}
+[5.030216] (week5) StdoutLine: {'line': b'writing dependency_links to ../../build/week5/week5.egg-info/dependency_links.txt\n'}
+[5.036747] (pub_sub) StdoutLine: {'line': b'writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO\n'}
+[5.038656] (week5) StdoutLine: {'line': b'writing entry points to ../../build/week5/week5.egg-info/entry_points.txt\n'}
+[5.046072] (week5) StdoutLine: {'line': b'writing requirements to ../../build/week5/week5.egg-info/requires.txt\n'}
+[5.048364] (control) StdoutLine: {'line': b'writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt\n'}
+[5.052460] (-) TimerEvent: {}
+[5.053415] (pub_sub) StdoutLine: {'line': b'writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt\n'}
+[5.057168] (week5) StdoutLine: {'line': b'writing top-level names to ../../build/week5/week5.egg-info/top_level.txt\n'}
+[5.064404] (control) StdoutLine: {'line': b'writing entry points to ../../build/control/control.egg-info/entry_points.txt\n'}
+[5.067186] (pub_sub) StdoutLine: {'line': b'writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt\n'}
+[5.070985] (week5) StdoutLine: {'line': b"writing manifest file '../../build/week5/week5.egg-info/SOURCES.txt'\n"}
+[5.076548] (control) StdoutLine: {'line': b'writing requirements to ../../build/control/control.egg-info/requires.txt\n'}
+[5.079589] (pub_sub) StdoutLine: {'line': b'writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt\n'}
+[5.085740] (control) StdoutLine: {'line': b'writing top-level names to ../../build/control/control.egg-info/top_level.txt\n'}
+[5.089359] (pub_sub) StdoutLine: {'line': b'writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt\n'}
+[5.140462] (week5) StdoutLine: {'line': b"reading manifest file '../../build/week5/week5.egg-info/SOURCES.txt'\n"}
+[5.152603] (control) StdoutLine: {'line': b"reading manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[5.154406] (-) TimerEvent: {}
+[5.155175] (pub_sub) StdoutLine: {'line': b"reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'\n"}
+[5.216372] (week5) StdoutLine: {'line': b"writing manifest file '../../build/week5/week5.egg-info/SOURCES.txt'\n"}
+[5.223171] (week5) StdoutLine: {'line': b'running build\n'}
+[5.224771] (week5) StdoutLine: {'line': b'running build_py\n'}
+[5.230952] (week5) StdoutLine: {'line': b'creating /mnt/c/ros2_ws/build/week5/build\n'}
+[5.233939] (week5) StdoutLine: {'line': b'creating /mnt/c/ros2_ws/build/week5/build/lib\n'}
+[5.237575] (week5) StdoutLine: {'line': b'creating /mnt/c/ros2_ws/build/week5/build/lib/week5\n'}
+[5.252360] (week5) StdoutLine: {'line': b'copying week5/testing.py -> /mnt/c/ros2_ws/build/week5/build/lib/week5\n'}
+[5.254617] (-) TimerEvent: {}
+[5.272032] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[5.277503] (pub_sub) StdoutLine: {'line': b"writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'\n"}
+[5.279635] (control) StdoutLine: {'line': b'running build\n'}
+[5.281338] (control) StdoutLine: {'line': b'running build_py\n'}
+[5.284245] (pub_sub) StdoutLine: {'line': b'running build\n'}
+[5.287678] (pub_sub) StdoutLine: {'line': b'running build_py\n'}
+[5.320302] (week5) StdoutLine: {'line': b'copying week5/__init__.py -> /mnt/c/ros2_ws/build/week5/build/lib/week5\n'}
+[5.328307] (control) StdoutLine: {'line': b'copying control/__init__.py -> /mnt/c/ros2_ws/build/control/build/lib/control\n'}
+[5.341112] (week5) StdoutLine: {'line': b'running install\n'}
+[5.342682] (week5) StdoutLine: {'line': b'running install_lib\n'}
+[5.354768] (-) TimerEvent: {}
+[5.356253] (control) StdoutLine: {'line': b'running install\n'}
+[5.357722] (control) StdoutLine: {'line': b'running install_lib\n'}
+[5.359368] (pub_sub) StdoutLine: {'line': b'running install\n'}
+[5.361252] (pub_sub) StdoutLine: {'line': b'running install_lib\n'}
+[5.373787] (week5) StdoutLine: {'line': b'creating /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5\n'}
+[5.400118] (week5) StdoutLine: {'line': b'copying /mnt/c/ros2_ws/build/week5/build/lib/week5/testing.py -> /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5\n'}
+[5.449767] (control) StdoutLine: {'line': b'copying /mnt/c/ros2_ws/build/control/build/lib/control/__init__.py -> /mnt/c/ros2_ws/install/control/lib/python3.10/site-packages/control\n'}
+[5.452273] (week5) StdoutLine: {'line': b'copying /mnt/c/ros2_ws/build/week5/build/lib/week5/__init__.py -> /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5\n'}
+[5.455416] (-) TimerEvent: {}
+[5.499096] (week5) StdoutLine: {'line': b'byte-compiling /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5/testing.py to testing.cpython-310.pyc\n'}
+[5.529508] (control) StdoutLine: {'line': b'byte-compiling /mnt/c/ros2_ws/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc\n'}
+[5.546902] (pub_sub) StdoutLine: {'line': b'running install_data\n'}
+[5.555618] (-) TimerEvent: {}
+[5.563191] (week5) StdoutLine: {'line': b'byte-compiling /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5/__init__.py to __init__.cpython-310.pyc\n'}
+[5.595433] (control) StdoutLine: {'line': b'running install_data\n'}
+[5.597099] (pub_sub) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.613143] (week5) StdoutLine: {'line': b'running install_data\n'}
+[5.614920] (pub_sub) StdoutLine: {'line': b"removing '/mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.622192] (control) StdoutLine: {'line': b'copying resource/control -> /mnt/c/ros2_ws/install/control/share/ament_index/resource_index/packages\n'}
+[5.624119] (week5) StdoutLine: {'line': b'creating /mnt/c/ros2_ws/install/week5/share/ament_index\n'}
+[5.626856] (week5) StdoutLine: {'line': b'creating /mnt/c/ros2_ws/install/week5/share/ament_index/resource_index\n'}
+[5.630774] (week5) StdoutLine: {'line': b'creating /mnt/c/ros2_ws/install/week5/share/ament_index/resource_index/packages\n'}
+[5.646615] (week5) StdoutLine: {'line': b'copying resource/week5 -> /mnt/c/ros2_ws/install/week5/share/ament_index/resource_index/packages\n'}
+[5.655805] (-) TimerEvent: {}
+[5.666796] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.679849] (week5) StdoutLine: {'line': b'copying package.xml -> /mnt/c/ros2_ws/install/week5/share/week5\n'}
+[5.685073] (control) StdoutLine: {'line': b"removing '/mnt/c/ros2_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.700466] (week5) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.706111] (pub_sub) StdoutLine: {'line': b'Copying ../../build/pub_sub/pub_sub.egg-info to /mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info\n'}
+[5.724480] (week5) StdoutLine: {'line': b'Copying ../../build/week5/week5.egg-info to /mnt/c/ros2_ws/install/week5/lib/python3.10/site-packages/week5-0.0.0-py3.10.egg-info\n'}
+[5.755982] (-) TimerEvent: {}
+[5.771481] (control) StdoutLine: {'line': b'Copying ../../build/control/control.egg-info to /mnt/c/ros2_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info\n'}
+[5.856172] (-) TimerEvent: {}
+[5.957030] (-) TimerEvent: {}
+[6.057920] (-) TimerEvent: {}
+[6.072458] (pub_sub) StdoutLine: {'line': b'running install_scripts\n'}
+[6.092429] (week5) StdoutLine: {'line': b'running install_scripts\n'}
+[6.136027] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.158090] (-) TimerEvent: {}
+[6.190665] (pub_sub) StdoutLine: {'line': b'Installing pub script to /mnt/c/ros2_ws/install/pub_sub/lib/pub_sub\n'}
+[6.209255] (pub_sub) StdoutLine: {'line': b'Installing sub script to /mnt/c/ros2_ws/install/pub_sub/lib/pub_sub\n'}
+[6.212768] (week5) StdoutLine: {'line': b'Installing test_node script to /mnt/c/ros2_ws/install/week5/lib/week5\n'}
+[6.234979] (pub_sub) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/ros2_ws/build/pub_sub/install.log'\n"}
+[6.237038] (week5) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/ros2_ws/build/week5/install.log'\n"}
+[6.258339] (-) TimerEvent: {}
+[6.266384] (control) StdoutLine: {'line': b'Installing control script to /mnt/c/ros2_ws/install/control/lib/control\n'}
+[6.310404] (control) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/ros2_ws/build/control/install.log'\n"}
+[6.324722] (week5) CommandEnded: {'returncode': 0}
+[6.358542] (-) TimerEvent: {}
+[6.459512] (-) TimerEvent: {}
+[6.560238] (-) TimerEvent: {}
+[6.661021] (-) TimerEvent: {}
+[6.702811] (week5) JobEnded: {'identifier': 'week5', 'rc': 0}
+[6.721728] (pub_sub) CommandEnded: {'returncode': 0}
+[6.761204] (-) TimerEvent: {}
+[6.861961] (-) TimerEvent: {}
+[6.962902] (-) TimerEvent: {}
+[7.063662] (-) TimerEvent: {}
+[7.123654] (pub_sub) JobEnded: {'identifier': 'pub_sub', 'rc': 0}
+[7.146466] (control) CommandEnded: {'returncode': 0}
+[7.163853] (-) TimerEvent: {}
+[7.264752] (-) TimerEvent: {}
+[7.365465] (-) TimerEvent: {}
+[7.466415] (-) TimerEvent: {}
+[7.510820] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[7.529600] (-) EventReactorShutdown: {}

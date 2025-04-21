@@ -1,0 +1,41 @@
+[2.529s] Invoking command in '/mnt/c/ros2_ws/src/pub_sub': PYTHONPATH=/mnt/c/ros2_ws/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /mnt/c/ros2_ws/build/pub_sub/build install --record /mnt/c/ros2_ws/build/pub_sub/install.log --single-version-externally-managed install_data
+[3.562s] running egg_info
+[3.569s] creating ../../build/pub_sub/pub_sub.egg-info
+[3.577s] writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[3.597s] writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[3.608s] writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[3.618s] writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+[3.624s] writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[3.636s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[3.687s] reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[3.760s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[3.764s] running build
+[3.765s] running build_py
+[3.773s] creating /mnt/c/ros2_ws/build/pub_sub/build
+[3.777s] creating /mnt/c/ros2_ws/build/pub_sub/build/lib
+[3.780s] creating /mnt/c/ros2_ws/build/pub_sub/build/lib/pub_sub
+[3.797s] copying pub_sub/pub.py -> /mnt/c/ros2_ws/build/pub_sub/build/lib/pub_sub
+[3.834s] copying pub_sub/sub.py -> /mnt/c/ros2_ws/build/pub_sub/build/lib/pub_sub
+[3.863s] copying pub_sub/__init__.py -> /mnt/c/ros2_ws/build/pub_sub/build/lib/pub_sub
+[3.879s] running install
+[3.880s] running install_lib
+[3.909s] creating /mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[3.933s] copying /mnt/c/ros2_ws/build/pub_sub/build/lib/pub_sub/pub.py -> /mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[3.983s] copying /mnt/c/ros2_ws/build/pub_sub/build/lib/pub_sub/sub.py -> /mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[4.037s] copying /mnt/c/ros2_ws/build/pub_sub/build/lib/pub_sub/__init__.py -> /mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[4.087s] byte-compiling /mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/pub.py to pub.cpython-310.pyc
+[4.146s] byte-compiling /mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/sub.py to sub.cpython-310.pyc
+[4.206s] byte-compiling /mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/__init__.py to __init__.cpython-310.pyc
+[4.256s] running install_data
+[4.266s] creating /mnt/c/ros2_ws/install/pub_sub/share/ament_index
+[4.269s] creating /mnt/c/ros2_ws/install/pub_sub/share/ament_index/resource_index
+[4.272s] creating /mnt/c/ros2_ws/install/pub_sub/share/ament_index/resource_index/packages
+[4.286s] copying resource/pub_sub -> /mnt/c/ros2_ws/install/pub_sub/share/ament_index/resource_index/packages
+[4.313s] copying package.xml -> /mnt/c/ros2_ws/install/pub_sub/share/pub_sub
+[4.330s] running install_egg_info
+[4.352s] Copying ../../build/pub_sub/pub_sub.egg-info to /mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+[4.713s] running install_scripts
+[4.846s] Installing pub script to /mnt/c/ros2_ws/install/pub_sub/lib/pub_sub
+[4.867s] Installing sub script to /mnt/c/ros2_ws/install/pub_sub/lib/pub_sub
+[4.894s] writing list of installed files to '/mnt/c/ros2_ws/build/pub_sub/install.log'
+[4.980s] Invoked command in '/mnt/c/ros2_ws/src/pub_sub' returned '0': PYTHONPATH=/mnt/c/ros2_ws/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/ros2_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /mnt/c/ros2_ws/build/pub_sub/build install --record /mnt/c/ros2_ws/build/pub_sub/install.log --single-version-externally-managed install_data
