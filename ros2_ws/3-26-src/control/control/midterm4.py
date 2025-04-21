@@ -21,6 +21,8 @@ class TurtlePurePursuit(Node):
         self.target_x = 1.5
         self.target_y = 8.5
 
+        #
+
         # 控制參數
         self.lookahead_distance = 0.5  # 前視距離
         self.linear_speed = 1.0
